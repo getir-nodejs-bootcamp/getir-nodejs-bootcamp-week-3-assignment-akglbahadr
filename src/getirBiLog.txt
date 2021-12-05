@@ -1,0 +1,6 @@
+--/posts requested,POST method, at 23:18:57 GMT+0300 (GMT+03:00) returned the page successfully!
+request body:{"username":"New Kyle","title":"Post 3","asdasd":"asdfsdfsdf"}
+--/posts requested,POST method, at 23:18:59 GMT+0300 (GMT+03:00) returned the page successfully!
+request body:{"username":"New Kyle","title":"Post 3","asdasd":"asdfsdfsdf"}
+--/posts requested,POST method, at 23:19:48 GMT+0300 (GMT+03:00) returned the page successfully!
+request body:{"username":"New Kyle","title":"Post 3","asdasd":"asdfsdfsdf"} auth header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVzdCIsInBhc3N3b3JkIjoidGVzdCIsImlhdCI6MTYzODczMzc4N30.pPNTTExrs4n3eQAllc-AtUdL_Xhmpyl6kct4FKWa1Cc
