@@ -1,6 +1,7 @@
 //depencencies
 const fs = require("fs");
 
+//logging methods, reqs
 const log = (req, res, next) => {
   const getirBiDate = new Date().toTimeString();
   fs.appendFile(

@@ -1,13 +1,13 @@
+//dependencies 
 const dotenv = require("dotenv");
-
 dotenv.config();
-
 const express = require("express");
 const app = express();
 const jwt = require("jsonwebtoken");
 const logger = require("./utils/logger");
 app.use(express.json());
 
+//db arry
 const posts = [
   {
     username: "Kyle",
@@ -21,6 +21,7 @@ const posts = [
   },
 ];
 
+//crud methods
 app.get("/posts", logger.log, authenticateToken, (req, res) => {
   res.json(posts.find((post) => post.username === req.body.username));
 });
@@ -63,6 +64,7 @@ app.delete("/posts", logger.log, authenticateToken, (req, res) => {
   res.status(200).send({ message: "The post is successfully deleted." });
 });
 
+//jwt token authenticateToken
 function authenticateToken(req, res, next) {
   const authHeader = req.headers["authorization"];
   const token = authHeader && authHeader.split(" ")[1];
