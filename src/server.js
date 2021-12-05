@@ -12,12 +12,12 @@ const posts = [
   {
     username: "Kyle",
     title: "Post 1",
-    content: "ASDHASDHASDHASDHSHDHSD",
+    content: "Content1",
   },
   {
     username: "Jim",
     title: "Post 2",
-    content: " cscvbcbvbcv",
+    content: "Content2",
   },
 ];
 
